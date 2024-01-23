@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 fake = Faker()
 
-countries = ["USA", "Canada", "UK", "Germany", "France", "Italy", "Spain", "Japan", "China", "Australia"]
+countries = ["USA", "Canada", "UK", "Germany", "France", "Italy", "Spain", "Japan", "China", "Australia", "Brazil", "Argentina", "Mexico", "Russia", "India", "South Africa", "Nigeria", "Egypt", "Kenya", "Ethiopia"]
 
 @app.route('/random_person', methods=['GET'])
 def get_random_person():
